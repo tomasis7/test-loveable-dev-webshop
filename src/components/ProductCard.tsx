@@ -34,6 +34,7 @@ const ProductCard = ({ id, name, price, image, category, className, featured = f
               className="product-image" 
               loading="lazy"
             />
+            <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/10 transition-all duration-300"></div>
             {featured && (
               <div className="absolute top-4 left-4">
                 <span className="bg-accent text-white text-xs font-medium px-2 py-1 rounded-full">
